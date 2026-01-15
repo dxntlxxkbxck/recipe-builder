@@ -9,4 +9,5 @@ const find = (recipe, substring) => {
     );
 };
 
-module.exports = find;
+// module.exports = find;
+export default find;

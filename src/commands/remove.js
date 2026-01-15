@@ -6,4 +6,5 @@ const remove = (recipe, ingredient) => {
     return [...recipe.slice(0, index), ...recipe.slice(index + 1)];
 };
 
-module.exports = remove;
+// module.exports = remove;
+export default remove;

@@ -1,18 +1,9 @@
 const undo = (history) => {
-    if (!history || history.length === 0) {
-        return {
-            history: [],
-            recipe: []
-        };
+    if (!Array.isArray(history) || history.length === 0) {
+        return null;
     }
 
-    const newHistory = history.slice(0, history.length - 1);
-    const previousRecipe = history[history.length - 1];
-
-    return {
-        history: newHistory,
-        recipe: previousRecipe
-    };
+    return history[history.length - 1];
 };
 
-module.exports = undo;
+export default undo;

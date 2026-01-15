@@ -16,4 +16,5 @@ const unique = (recipe) => {
     return result;
 }
 
-module.exports = unique;
+// module.exports = unique;
+export default unique;

@@ -6,3 +6,5 @@ const exists = (recipe, ingredient) => {
     }
     return false;
 }
+
+export default exists;

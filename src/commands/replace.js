@@ -7,3 +7,5 @@ const replace = (recipe, oldVal, newVal) => {
     result[index] = newVal;
     return result;
 }
+
+export default replace;

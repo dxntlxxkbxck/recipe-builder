@@ -11,4 +11,5 @@ const merge = (recipe, csvList) => {
     return [...recipe, ...parsed];
 }
 
-module.exports = merge;
+//module.exports = merge;
+export default merge;
