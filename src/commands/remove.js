@@ -3,7 +3,7 @@ const remove = (recipe, ingredient) => {
     if (index === -1) {
         return recipe.slice();
     }
-    return [...recipe.sclice(0, index), ...recipe.slice(index + 1)];
+    return [...recipe.slice(0, index), ...recipe.slice(index + 1)];
 };
 
 module.exports = remove;
