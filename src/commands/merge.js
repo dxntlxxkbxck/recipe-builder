@@ -1,5 +1,5 @@
 const merge = (recipe, csvList) => {
-    if (!csvList || typeof csvList !== 'string') {
+    if (!csvList || typeof csvList !== 'string') { // guard expression
         return recipe.slice();
     }
 
